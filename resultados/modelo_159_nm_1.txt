@@ -1,0 +1,49 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               qtobin_w   R-squared:                       0.447
+Model:                            OLS   Adj. R-squared:                  0.434
+Method:                 Least Squares   F-statistic:                     34.93
+Date:                Wed, 04 Nov 2026   Prob (F-statistic):          5.05e-111
+Time:                        12:29:00   Log-Likelihood:                -851.27
+No. Observations:                1020   AIC:                             1751.
+Df Residuals:                     996   BIC:                             1869.
+Df Model:                          23                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================================
+                                                 coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------
+Intercept                                      0.4371      0.247      1.771      0.077      -0.047       0.922
+C(Ano)[T.2012]                                 0.2289      0.083      2.756      0.006       0.066       0.392
+C(Ano)[T.2013]                                 0.1554      0.082      1.887      0.059      -0.006       0.317
+C(Ano)[T.2014]                                 0.1014      0.083      1.227      0.220      -0.061       0.264
+C(Ano)[T.2015]                                 0.0669      0.084      0.800      0.424      -0.097       0.231
+C(Ano)[T.2016]                                 0.2008      0.084      2.392      0.017       0.036       0.366
+C(Ano)[T.2017]                                 0.3708      0.082      4.546      0.000       0.211       0.531
+C(Ano)[T.2018]                                 0.3495      0.081      4.299      0.000       0.190       0.509
+C(Ano)[T.2019]                                 0.6135      0.081      7.589      0.000       0.455       0.772
+C(Ano)[T.2020]                                 0.6436      0.078      8.287      0.000       0.491       0.796
+C(setor)[T.Comunicações]                      -0.2853      0.187     -1.525      0.128      -0.652       0.082
+C(setor)[T.Consumo cíclico]                   -0.0227      0.052     -0.438      0.662      -0.125       0.079
+C(setor)[T.Consumo não cíclico]               -0.0922      0.070     -1.321      0.187      -0.229       0.045
+C(setor)[T.Materiais básicos]                 -0.1710      0.088     -1.947      0.052      -0.343       0.001
+C(setor)[T.Petróleo gás e biocombustíveis]    -0.2294      0.089     -2.583      0.010      -0.404      -0.055
+C(setor)[T.Saúde]                              0.6132      0.074      8.333      0.000       0.469       0.758
+C(setor)[T.Tecnologia da informação]           0.4478      0.114      3.933      0.000       0.224       0.671
+C(setor)[T.Utilidade pública]                 -0.2743      0.078     -3.496      0.000      -0.428      -0.120
+retcaixa_w                                    -2.1412      0.616     -3.478      0.001      -3.349      -0.933
+rc2                                            9.7419      1.980      4.919      0.000       5.855      13.628
+roa_w                                          4.8097      0.323     14.911      0.000       4.177       5.443
+tam_w                                          0.0292      0.016      1.877      0.061      -0.001       0.060
+c_rec_w                                        0.1859      0.060      3.086      0.002       0.068       0.304
+prej                                           0.1918      0.059      3.266      0.001       0.077       0.307
+==============================================================================
+Omnibus:                      248.557   Durbin-Watson:                   0.865
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              787.564
+Skew:                           1.184   Prob(JB):                    9.61e-172
+Kurtosis:                       6.595   Cond. No.                     1.83e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.83e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

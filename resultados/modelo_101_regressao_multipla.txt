@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               qtobin_w   R-squared:                       0.177
+Model:                            OLS   Adj. R-squared:                  0.174
+Method:                 Least Squares   F-statistic:                     65.91
+Date:                Wed, 04 Nov 2026   Prob (F-statistic):           2.15e-74
+Time:                        12:29:00   Log-Likelihood:                -1732.1
+No. Observations:                1850   AIC:                             3478.
+Df Residuals:                    1843   BIC:                             3517.
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.1715      0.140      8.362      0.000       0.897       1.446
+retcaixa_w     0.8513      0.174      4.900      0.000       0.511       1.192
+roa_w          3.8466      0.263     14.617      0.000       3.330       4.363
+tam_w         -0.0230      0.009     -2.465      0.014      -0.041      -0.005
+gov            0.2132      0.035      6.136      0.000       0.145       0.281
+c_rec_w        0.1760      0.044      4.011      0.000       0.090       0.262
+prej           0.1837      0.048      3.855      0.000       0.090       0.277
+==============================================================================
+Omnibus:                      802.278   Durbin-Watson:                   0.758
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3937.729
+Skew:                           2.041   Prob(JB):                         0.00
+Kurtosis:                       8.867   Cond. No.                         288.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
