@@ -66,8 +66,6 @@ Lista_Pratica_Econometria/
 
 A parte 2 depende da base salva ao final da parte 1. As pastas `resultados/` e `figuras/` são criadas automaticamente caso não existam. Os gráficos são exibidos com `plt.show()`, e a execução continua após cada janela ser fechada.
 
-Testado com Python 3.13, pandas 3.0, statsmodels 0.15 e matplotlib 3.11.
-
 ## Observações
 
 - Na base, a coluna do passivo circulante foi importada como `"PasCir\n  "` (com dois espaços após a quebra de linha). O nome foi ajustado no código dos itens 12 e 21.
