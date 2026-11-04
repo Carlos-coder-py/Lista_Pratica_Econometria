@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               qtobin_w   R-squared:                       0.183
+Model:                            OLS   Adj. R-squared:                  0.180
+Method:                 Least Squares   F-statistic:                     59.06
+Date:                Wed, 04 Nov 2026   Prob (F-statistic):           1.14e-76
+Time:                        12:29:00   Log-Likelihood:                -1724.6
+No. Observations:                1850   AIC:                             3465.
+Df Residuals:                    1842   BIC:                             3509.
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.2392      0.141      8.810      0.000       0.963       1.515
+retcaixa_w     0.0343      0.273      0.126      0.900      -0.501       0.570
+roa_w          3.8758      0.262     14.777      0.000       3.361       4.390
+tam_w         -0.0230      0.009     -2.475      0.013      -0.041      -0.005
+c_rec_w        0.1720      0.044      3.934      0.000       0.086       0.258
+prej           0.1792      0.047      3.775      0.000       0.086       0.272
+gov            0.0974      0.046      2.129      0.033       0.008       0.187
+rc_gov         1.3608      0.351      3.872      0.000       0.672       2.050
+==============================================================================
+Omnibus:                      808.272   Durbin-Watson:                   0.768
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4001.245
+Skew:                           2.056   Prob(JB):                         0.00
+Kurtosis:                       8.917   Cond. No.                         457.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

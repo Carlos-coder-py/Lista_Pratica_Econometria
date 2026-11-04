@@ -1,0 +1,38 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               qtobin_w   R-squared:                       0.275
+Model:                            OLS   Adj. R-squared:                  0.269
+Method:                 Least Squares   F-statistic:                     49.68
+Date:                Wed, 04 Nov 2026   Prob (F-statistic):          3.20e-117
+Time:                        12:29:00   Log-Likelihood:                -1614.7
+No. Observations:                1850   AIC:                             3259.
+Df Residuals:                    1835   BIC:                             3342.
+Df Model:                          14                                         
+Covariance Type:            nonrobust                                         
+==============================================================================================================
+                                                 coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------------------------------------
+Intercept                                      0.5561      0.146      3.805      0.000       0.269       0.843
+C(setor)[T.Comunicações]                      -0.2359      0.108     -2.183      0.029      -0.448      -0.024
+C(setor)[T.Consumo cíclico]                    0.0390      0.041      0.959      0.338      -0.041       0.119
+C(setor)[T.Consumo não cíclico]                0.0585      0.059      0.992      0.322      -0.057       0.174
+C(setor)[T.Materiais básicos]                 -0.2502      0.053     -4.717      0.000      -0.354      -0.146
+C(setor)[T.Petróleo gás e biocombustíveis]    -0.1331      0.081     -1.652      0.099      -0.291       0.025
+C(setor)[T.Saúde]                              0.7106      0.064     11.146      0.000       0.586       0.836
+C(setor)[T.Tecnologia da informação]           0.6958      0.110      6.344      0.000       0.481       0.911
+C(setor)[T.Utilidade pública]                 -0.1344      0.049     -2.741      0.006      -0.231      -0.038
+retcaixa_w                                     0.7292      0.169      4.321      0.000       0.398       1.060
+roa_w                                          3.6750      0.249     14.773      0.000       3.187       4.163
+tam_w                                          0.0248      0.010      2.389      0.017       0.004       0.045
+gov                                            0.0532      0.036      1.483      0.138      -0.017       0.124
+c_rec_w                                        0.1698      0.042      4.066      0.000       0.088       0.252
+prej                                           0.2045      0.045      4.533      0.000       0.116       0.293
+==============================================================================
+Omnibus:                      723.121   Durbin-Watson:                   0.797
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3520.430
+Skew:                           1.807   Prob(JB):                         0.00
+Kurtosis:                       8.711   Cond. No.                         289.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

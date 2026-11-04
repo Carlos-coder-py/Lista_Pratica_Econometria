@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               qtobin_w   R-squared:                       0.021
+Model:                            OLS   Adj. R-squared:                  0.020
+Method:                 Least Squares   F-statistic:                     38.95
+Date:                Wed, 04 Nov 2026   Prob (F-statistic):           5.39e-10
+Time:                        12:28:58   Log-Likelihood:                -1892.7
+No. Observations:                1850   AIC:                             3789.
+Df Residuals:                    1848   BIC:                             3800.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.1362      0.023     50.125      0.000       1.092       1.181
+retcaixa_w     1.1721      0.188      6.241      0.000       0.804       1.540
+==============================================================================
+Omnibus:                      882.705   Durbin-Watson:                   0.532
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4556.595
+Skew:                           2.271   Prob(JB):                         0.00
+Kurtosis:                       9.203   Cond. No.                         12.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
