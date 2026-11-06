@@ -36,7 +36,7 @@ Lista_Pratica_Econometria/
 ├── README.md
 ├── lista_pratica_parte1.py          código – itens 0 a 75
 ├── lista_pratica_parte2.py          código – itens 76 a 178
-├── Relatorio_Lista_Pratica.docx   relatório de resultados
+├── Relatorio_Lista_Pratica.docx     relatório de resultados
 │
 ├── dados/                           base original, sem alterações manuais
 │   └── Base - LP1.xlsx
