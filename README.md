@@ -55,7 +55,7 @@ Lista_Pratica_Econometria/
 
 1. Instalar as bibliotecas (no terminal):
    ```bash
-   python -m pip install pandas numpy scipy statsmodels matplotlib openpyxl
+   pip install -r requirements.txt
    ```
 2. Abrir a pasta `Lista_Pratica_Econometria` como diretório de trabalho (VS Code: `File → Open Folder`).
 3. Executar os scripts **nesta ordem**:
