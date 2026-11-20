@@ -53,18 +53,18 @@ Lista_Pratica_Econometria/
 
 ## Como reproduzir
 
-1. Instalar as bibliotecas (no terminal):
-   ```bash
-   pip install -r requirements.txt
-   ```
-2. Abrir a pasta `Lista_Pratica_Econometria` como diretório de trabalho (VS Code: `File → Open Folder`).
-3. Executar os scripts **nesta ordem**:
-   ```bash
-   python lista_pratica_parte1.py
-   python lista_pratica_parte2.py
-   ```
+Execute os seguintes comandos no terminal:
 
-A parte 2 depende da base salva ao final da parte 1. As pastas `resultados/` e `figuras/` são criadas automaticamente caso não existam. Os gráficos são exibidos com `plt.show()`, e a execução continua após cada janela ser fechada.
+```bash
+git clone https://github.com
+cd Lista_Pratica_Econometria
+pip install -r requirements.txt
+python lista_pratica_parte1.py
+python lista_pratica_parte2.py
+```
+> **Nota:** No VS Code, abra a pasta `Lista_Pratica_Econometria` e rode os passos de instalação e execução no terminal integrado.
+
+A parte 2 depende dos arquivos gerados na parte 1 (`resultados/base_parte1.xlsx`). As pastas `resultados/` e `figuras/` são criadas automaticamente, e os gráficos exigem o fechamento da janela anterior para prosseguir com a execução.
 
 ## Observações
 
